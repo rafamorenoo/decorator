@@ -67,7 +67,17 @@ end
 
 
 
-# Problema
+
+# Riesgo de pasar el valor de una variable a otra
+
+config = null;
+
+sombrero = null;
+
+
+
+
+
 
 
 ![image](https://github.com/user-attachments/assets/468651fa-5b7d-475e-88c7-9fa686c88e75)
