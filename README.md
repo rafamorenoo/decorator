@@ -97,7 +97,7 @@ sombrero = null;
 
 
 
-![image](https://github.com/user-attachments/assets/0d3d2074-74a9-4485-b88e-0f5d08137682)
+
 
 
 
