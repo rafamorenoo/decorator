@@ -197,7 +197,7 @@ CardArea.align_cards = type_based_logic_decorator(function(self, type_of_card)
     if self.children.view_deck then
         -- Lógica adicional si hay una vista de mazo activa
     end
-end)
+
 
 
 
