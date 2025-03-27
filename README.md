@@ -9,6 +9,10 @@ En este código que utiliza Balatro el valor de la variable config se va sobrees
 
 
 
+Config -> nuevo valor
+
+![image](https://github.com/user-attachments/assets/468651fa-5b7d-475e-88c7-9fa686c88e75)
 
 
-![image](https://github.com/user-attachments/assets/db9628a3-273f-4dc7-b110-3e77ec0f0323)
+
+
