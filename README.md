@@ -94,8 +94,7 @@ sombrero = null;
 
 
 
-1. Crear una metatable para proteger config
-Vamos a definir una metatable que permita acceder a config pero que impida cualquier modificación directa.
+
 
 lua
 Copiar
@@ -116,8 +115,7 @@ function protect_inmutable(obj)
     setmetatable(obj, mt)
     return obj
 end
-2. Aplicar la metatable a self.config
-En el decorador o en el momento de inicializar el objeto, podemos proteger la tabla config para asegurarnos de que no se modifique.
+
 
 lua
 Copiar
@@ -126,8 +124,7 @@ Editar
 self.config = protect_inmutable(self.config)
 Esto protegerá el objeto self.config, de modo que si en algún lugar se intenta modificar cualquier valor dentro de config, Lua lanzará un error.
 
-3. Integrar con el decorador
-Ahora, podemos asegurarnos de que self.config esté protegido cuando utilizamos el decorador.
+
 
 lua
 Copiar
@@ -166,8 +163,7 @@ function type_based_logic_decorator(func)
         end
     end
 end
-4. Refactorización de align_cards con protección de inmutabilidad
-Finalmente, al usar el decorador, self.config estará protegido contra modificaciones, y el código en align_cards permanecerá igual, pero sin riesgo de modificar los valores accidentalmente.
+
 
 lua
 Copiar
