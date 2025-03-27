@@ -96,9 +96,7 @@ sombrero = null;
 
 
 
-lua
-Copiar
-Editar
+
 -- Función para proteger los valores de las variables (inmutabilidad)
 function protect_inmutable(obj)
     -- Crear una metatable que solo permita lectura
@@ -117,18 +115,14 @@ function protect_inmutable(obj)
 end
 
 
-lua
-Copiar
-Editar
+
 -- Suponiendo que 'self.config' es la configuración de la carta
 self.config = protect_inmutable(self.config)
 Esto protegerá el objeto self.config, de modo que si en algún lugar se intenta modificar cualquier valor dentro de config, Lua lanzará un error.
 
 
 
-lua
-Copiar
-Editar
+
 -- Decorador para manejar la lógica según el tipo de carta, usando self.config
 function type_based_logic_decorator(func)
     return function(self, ...)
@@ -165,9 +159,6 @@ function type_based_logic_decorator(func)
 end
 
 
-lua
-Copiar
-Editar
 -- Aplicamos el decorador para manejar la lógica según el tipo de carta usando self.config protegido
 CardArea.align_cards = type_based_logic_decorator(function(self, type_of_card)
     -- Lógica común para todos los tipos de carta
