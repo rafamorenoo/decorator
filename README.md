@@ -8,7 +8,6 @@ En este código que utiliza Balatro el valor de la variable config se va sobrees
 ![image](https://github.com/user-attachments/assets/13a8f7f5-eaa4-4d8e-bcfb-be46666ec310)
 
 
-
 # Posible solución
 
 
