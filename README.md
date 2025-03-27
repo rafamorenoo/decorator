@@ -12,7 +12,7 @@ En este código que utiliza Balatro el valor de la variable config se va sobrees
 
 
 function CardArea:align_cards()
-    -- Se asume que 'sombrero' es el equivalente a 'self.config'
+
     local sombrero = self.config
 
     if (self == G.hand or self == G.deck or self == G.discard or self == G.play) and G.view_deck and G.view_de then
