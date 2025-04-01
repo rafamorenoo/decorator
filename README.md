@@ -198,6 +198,15 @@ CardArea.align_cards = type_based_logic_decorator(function(self, type_of_card)
         -- Lógica adicional si hay una vista de mazo activa
     end
 
+    
+El patrón Decorator sirve para agregar nuevas funciones a un objeto sin cambiar su código original. En lugar de modificarlo directamente, lo "envuelve" con capas adicionales que le añaden mejoras. Esto evita crear muchas subclases y permite combinar distintas mejoras fácilmente.
+
+Ventajas del Decorator:
+1. Reemplaza el código desorganizado con un sistema modular y flexible.  
+2. Permite añadir nuevas funciones sin tocar el código original.  
+3. Mejora el rendimiento al evitar cálculos innecesarios.  
+4. Hace el código más limpio y fácil de mantener.  
+5. Facilita la combinación de efectos para mayor personalización.
 
 
 
